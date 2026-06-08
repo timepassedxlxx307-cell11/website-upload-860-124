@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索 - 日韩好剧推荐</title>
+    <meta name="description" content="搜索日韩电视剧、日剧推荐、韩剧推荐、高清免费影视大全与热门剧集。">
+    <meta name="keywords" content="搜索,日韩电视剧,日剧推荐,韩剧推荐,在线观看,免费视频,影视大全,日韩好剧,高清电视剧,日韩剧集">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a class="site-logo" href="./index.html" aria-label="日韩好剧推荐">
+                <span class="logo-mark">▶</span>
+                <span>日韩好剧推荐</span>
+            </a>
+            <div class="nav-links">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./search.html">搜索</a>
+                    <a href="./category/hot-japan-korea.html">热门日韩剧</a>
+                    <a href="./category/japanese-dramas.html">日剧推荐</a>
+                    <a href="./category/korean-dramas.html">韩剧推荐</a>
+                    <a href="./category/romance-dramas.html">爱情剧场</a>
+            </div>
+            <button class="mobile-toggle" type="button" aria-label="打开导航" data-mobile-toggle>☰</button>
+        </nav>
+        <div class="mobile-panel" data-mobile-panel>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+                    <a href="./category/hot-japan-korea.html">热门日韩剧</a>
+                    <a href="./category/japanese-dramas.html">日剧推荐</a>
+                    <a href="./category/korean-dramas.html">韩剧推荐</a>
+                    <a href="./category/romance-dramas.html">爱情剧场</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span>影片搜索</span>
+                <h1>搜索日韩电视剧与高清免费影视</h1>
+                <p>输入片名、地区、年份、类型或题材，快速查找想看的影视内容。</p>
+            </div>
+        </section>
+        <section class="content-section container search-section">
+            <div class="search-panel" data-search-page>
+                <div class="filter-bar search-wide">
+                    <input type="search" placeholder="输入片名、日剧、韩剧、悬疑、爱情等关键词" aria-label="搜索影片" data-search-input>
+                    <select aria-label="按类型筛选" data-search-type>
+                        <option value="">全部类型</option>
+                    </select>
+                    <select aria-label="按年份筛选" data-search-year>
+                        <option value="">全部年份</option>
+                    </select>
+                    <select aria-label="按地区筛选" data-search-region>
+                        <option value="">全部地区</option>
+                    </select>
+                </div>
+                <div class="movie-grid catalog-grid" data-search-results></div>
+                <p class="empty-state" data-search-empty>暂无匹配影片</p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">
+                    <span class="logo-mark">▶</span>
+                    <strong>日韩好剧推荐</strong>
+                </div>
+                <p>精选日韩电视剧推荐平台，提供最新日剧韩剧在线观看，高清免费影视大全。涵盖日韩爱情剧、悬疑剧、青春剧等热门剧集，发现更多优质日韩好剧。</p>
+            </div>
+            <div>
+                <h2>分类导航</h2>
+                <div class="footer-links">
+                    <a href="./categories.html">全部分类</a>
+                    <a href="./category/hot-japan-korea.html">热门日韩剧</a>
+                    <a href="./category/japanese-dramas.html">日剧推荐</a>
+                    <a href="./category/korean-dramas.html">韩剧推荐</a>
+                    <a href="./category/romance-dramas.html">爱情剧场</a>
+                    <a href="./category/suspense-thriller.html">悬疑惊悚</a>
+                    <a href="./category/youth-campus.html">青春校园</a>
+                </div>
+            </div>
+            <div>
+                <h2>快捷入口</h2>
+                <div class="footer-links">
+                    <a href="./index.html">首页推荐</a>
+                    <a href="./ranking.html">热门排行</a>
+                    <a href="./search.html">影片搜索</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 日韩好剧推荐 · 高清影视大全</div>
+    </footer>
+    <button class="back-top" type="button" aria-label="返回顶部" data-back-top>↑</button>
+    <script src="./assets/js/search-index.js"></script>
+    <script src="./assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
